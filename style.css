@@ -37,8 +37,8 @@
 }
 
 img {
-    box-sizing: border-box;
-    border-radius: 28px;
+    width: 100%;
+    object-fit: cover;
 }
 
 #headlineo {
@@ -113,8 +113,8 @@ ul {
     line-height: auto;    
 }
 
-ol {
-    padding-left: 0px;
+ul li::marker {
+    color: #333333;
 }
 
 #lastp {
@@ -136,4 +136,6 @@ footer {
 
 footer img {
     align-items: center;
+    width: 16px;
+    height: 16px;
 }
