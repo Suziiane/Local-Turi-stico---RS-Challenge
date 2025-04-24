@@ -10,11 +10,9 @@
     /* justify-items: center; */
 }
 
-
 #page{
     justify-items: center;
     background-color: #F5F4F0;
-    border-color: #D9D9D9;
     margin: 80px;
     padding: 88px 80px 24px 80px;
     width: 1280px;
@@ -36,7 +34,6 @@
 #sectwo {
     text-align: left;
     width: 1120px;
-
 }
 
 img {
@@ -114,6 +111,10 @@ ul {
     padding-left: 5px;
     letter-spacing: 0%;
     line-height: auto;    
+}
+
+ol {
+    padding-left: 0px;
 }
 
 #lastp {
